@@ -1,38 +1,115 @@
-.App {
-  text-align: center;
+body{
+  background-color: rgb(17, 17, 17);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+label{
+  margin-left: 20px;
+  color: red;
+  font-weight: bold;
+  text-shadow: 0 0 10px rgb(255, 0, 0);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1, p, h2, h3{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  color: rgb(194, 255, 250);
+}
+
+button{
+  width: 100px;
+  height: 40px;
+  background-color: #023E8A;
   color: white;
+  border: 0;
+  border-radius: 20px;
+  transition: 0.5s;
+  margin: 40px;
+  
+  box-shadow: 0 0 20px rgb(0, 225, 255);
 }
 
-.App-link {
-  color: #61dafb;
+button:hover{
+  background-color: #03045E;
+  transition: 0.5s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:active{
+  background-color: #0077B6;
+  transition: 0.1s;
+  scale: 2;
+}
+
+.button-group{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.level-ui{
+  margin: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.level-ui > strong > p{
+  font-size: 20px;
+}
+
+.level-progress{
+  height: 20px;
+  background-color: rgb(0, 255, 0);
+  border-radius: 10px;
+
+  box-shadow: 0 0 20px rgb(0, 225, 255);
+}
+
+.level-progress-border{
+  width: 200px;
+  height: 20px;
+  border: 1px solid black;
+  margin-left: 10px;
+  margin-bottom: -3px;
+  border-radius: 11px;
+
+  box-shadow: 0 0 20px rgb(0, 225, 255);
+}
+
+.main-container{
+  display: block;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  border: 3px solid cyan;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgb(52, 241, 255);
+  background-color: #00a6ff;
+
+  max-width: 700px;
+  margin: 30px auto;
+}
+
+.highscore-container{
+  display: block;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+  border: 3px solid cyan;
+  border-radius: 10px;
+  padding:20px;
+  box-shadow: 0 0 20px rgb(52, 241, 255);
+  background-color: #00a6ff;
+
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+#critical-notify{
+ color: rgb(255, 166, 0);
+ text-shadow: 0 0 10px rgb(255, 153, 0);
 }
