@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/levelup-sim/static/css/main.7a3c2035.css",
+    "main.js": "/levelup-sim/static/js/main.3b25d753.js",
+    "static/js/453.2779ceff.chunk.js": "/levelup-sim/static/js/453.2779ceff.chunk.js",
+    "static/media/coin.mp3": "/levelup-sim/static/media/coin.fc8a1eeffe8453d9b607.mp3",
+    "static/media/correct.mp3": "/levelup-sim/static/media/correct.ed3894f877249fd39ddf.mp3",
+    "static/media/levelup.mp3": "/levelup-sim/static/media/levelup.d62f7ed13f838309cfe4.mp3",
+    "index.html": "/levelup-sim/index.html",
+    "main.7a3c2035.css.map": "/levelup-sim/static/css/main.7a3c2035.css.map",
+    "main.3b25d753.js.map": "/levelup-sim/static/js/main.3b25d753.js.map",
+    "453.2779ceff.chunk.js.map": "/levelup-sim/static/js/453.2779ceff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a3c2035.css",
+    "static/js/main.3b25d753.js"
+  ]
+}
